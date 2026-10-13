@@ -4,35 +4,34 @@ Book catalog system for Riverside Library
 ## How to Use
 ### Add a Book
 ```
-python add
+python add book.py
 _
 ```
 book.py
 ### Search for Books
 ```
-python search
+python search_book.py
 _
 ```
 books.py
 ### List All Books
 ```
-python list
+python list_book.py
 _
 ```
 books.py
 ### Delete a Book
 ```
-python delete
+python delete_book.py
 _
 ```
 book.py
 ## File Format
-Books are stored in
+Books are stored in `books.txt` with the format:
 ```
 Title, Author, Year
 ```
-`books.txt`
-with the format:
+
 ## Example
 ```
 1984, George Orwell, 1949
